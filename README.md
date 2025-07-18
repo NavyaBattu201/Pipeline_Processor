@@ -10,7 +10,7 @@ Assume that each piipeline stage takes 1 cycle.
 -sh
 g++ .\main.cpp
 
-./a.exe --dcache FILE_DIRECTORY_OF_THE_DCACHE --icache FILE_DIRECTORY_OF_ICACHE --rf FILE_DIRECTORY_OF_RF
+./a.exe --dcache FILE_DIRECTORY_OF_THE_DCACHE --icache FILE_DIRECTORY_OF_THE_ICACHE --rf FILE_DIRECTORY_OF_RF
 
 Then,
 Both DCache.txt file,output.txt will contain the expected results.These files will be newly formed or overwritten if previously exists.If you want to pass these files names use flags --dcacheout and --out respectively.
